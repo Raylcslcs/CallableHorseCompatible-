@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "tschipp.callablehorses.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "tschipp.callablehorses.mixin.CallableHorsesMixinPlugin",
+  "mixins": [
+    "PlayerStartRidingMixin",
+    "compat.iceandfire.EntityDragonBaseMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

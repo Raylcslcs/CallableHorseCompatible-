@@ -1,0 +1,37 @@
+{
+    "key.callablehorses.category": "Callable Horses",
+    "key.sethorse.desc": "Définir le Cheval",
+    "key.callhorse.desc": "Appeler le Cheval",
+    "key.callhorse_ride.desc": "Appeler + Monter",
+    "key.showstats.desc": "Afficher les Statistiques du Cheval",
+
+    "callablehorses.error.dim": "Vous ne pouvez pas appeler votre cheval dans cette dimension !",
+    "callablehorses.error.riding": "Vous ne pouvez pas chevaucher en appelant votre cheval !",
+    "callablehorses.error.nohorse": "Vous n'avez actuellement pas de cheval personnel !",
+    "callablehorses.error.notriding": "Il faut monter à cheval pour faire ça !",
+    "callablehorses.error.notlivingmount": "Vous ne montez pas une monture vivante compatible !",
+    "callablehorses.error.nocap": "Échec de l'association : données de monture manquantes.",
+    "callablehorses.error.nocap_owner": "Échec de l'association : données du joueur manquantes.",
+    "callablehorses.error.alreadyowned": "Ce cheval a déjà un propriétaire !",
+    "callablehorses.error.alreadypersonal": "C'est déjà votre cheval personnel !",
+    "callablehorses.error.area": "Vous ne pouvez pas appeler votre cheval dans cette zone !",
+    "callablehorses.error.range": "Votre cheval est trop loin pour vous entendre !",
+    "callablehorses.error.setarea": "Vous ne pouvez pas définir ce cheval dans cette zone !",
+    "callablehorses.error.nospace": "Il n'y a pas assez de place ici pour appeler votre cheval !",
+    "callablehorses.error.cannotride": "Impossible de monter votre cheval personnel.",
+
+    "callablehorses.success": "C'est maintenant votre cheval personnel !",
+
+    "callablehorses.alert.death": "Votre cheval personnel vient de mourir !",
+    "callablehorses.alert.offlinedeath": "Votre cheval personnel est mort alors que vous étiez hors ligne !",
+
+    "callablehorses.stats.title": "Statistiques du cheval",
+    "callablehorses.stats.health": "Santé :",
+    "callablehorses.stats.speed": "Vitesse :",
+    "callablehorses.stats.jump": "Hauteur de saut :",
+    "callablehorses.stats.last_pos": "Dernière position connue :",
+    "callablehorses.stats.last_dim": "Dernière dimension connue :",
+    "callablehorses.stats.unknown": "Inconnu",
+    "callablehorses.stats.pos": "xyz = %s %s %s",
+    "callablehorses.stats.na": "N/A"
+}

@@ -1,0 +1,37 @@
+{
+  "key.callablehorses.category": "召唤坐骑",
+  "key.sethorse.desc": "绑定坐骑",
+  "key.callhorse.desc": "召唤坐骑",
+  "key.callhorse_ride.desc": "召唤并骑乘坐骑",
+  "key.showstats.desc": "查看坐骑属性",
+
+  "callablehorses.error.dim": "你不能在这个维度召唤你的坐骑！",
+  "callablehorses.error.riding": "召唤坐骑时不能正在骑乘！",
+  "callablehorses.error.nohorse": "你还没有绑定个人坐骑！",
+  "callablehorses.error.notriding": "你需要正在骑乘坐骑才能绑定！",
+  "callablehorses.error.notlivingmount": "你当前骑乘的不是可绑定的生物坐骑！",
+  "callablehorses.error.nocap": "绑定失败：无法读取坐骑数据（capability 缺失）。",
+  "callablehorses.error.nocap_owner": "绑定失败：无法读取玩家数据（capability 缺失）。",
+  "callablehorses.error.alreadyowned": "这只坐骑已经有主人了！",
+  "callablehorses.error.alreadypersonal": "这已经是你的个人坐骑了！",
+  "callablehorses.error.area": "你不能在这里召唤坐骑！",
+  "callablehorses.error.range": "你的坐骑离得太远，听不到你的呼唤！",
+  "callablehorses.error.setarea": "你不能在这里绑定坐骑！",
+  "callablehorses.error.nospace": "这里空间不足，无法召唤坐骑！",
+  "callablehorses.error.cannotride": "无法自动骑乘你的个人坐骑。",
+
+  "callablehorses.success": "绑定成功！这只坐骑现在是你的个人坐骑！",
+
+  "callablehorses.alert.death": "你的个人坐骑刚刚死亡！",
+  "callablehorses.alert.offlinedeath": "你离线期间，你的个人坐骑死亡了！",
+
+  "callablehorses.stats.title": "坐骑属性查看器",
+  "callablehorses.stats.health": "生命值：",
+  "callablehorses.stats.speed": "速度：",
+  "callablehorses.stats.jump": "跳跃高度：",
+  "callablehorses.stats.last_pos": "最后出现位置：",
+  "callablehorses.stats.last_dim": "最后出现维度：",
+  "callablehorses.stats.unknown": "未知",
+  "callablehorses.stats.pos": "坐标：%s %s %s",
+  "callablehorses.stats.na": "不适用"
+}

@@ -1,0 +1,37 @@
+{
+    "key.callablehorses.category": "Callable Horses",
+    "key.sethorse.desc": "Set Horse",
+    "key.callhorse.desc": "Call Horse",
+    "key.callhorse_ride.desc": "Call + Ride",
+    "key.showstats.desc": "Show Horse Stats",
+
+    "callablehorses.error.dim": "You can't call your horse in this dimension!",
+    "callablehorses.error.riding": "You can't be riding while calling your horse!",
+    "callablehorses.error.nohorse": "You currently don't have a personal Horse!",
+    "callablehorses.error.notriding": "You need to be riding a horse to do this!",
+    "callablehorses.error.notlivingmount": "You are not riding a bindable living mount!",
+    "callablehorses.error.nocap": "Failed to bind: missing mount capability data.",
+    "callablehorses.error.nocap_owner": "Failed to bind: missing player capability data.",
+    "callablehorses.error.alreadyowned": "This horse already has an owner!",
+    "callablehorses.error.alreadypersonal": "This is already your personal horse!",
+    "callablehorses.error.area": "You can't call your horse in this area!",
+    "callablehorses.error.range": "Your horse is too far away to hear you!",
+    "callablehorses.error.setarea": "You can't set your horse in this area!",
+    "callablehorses.error.nospace": "There is not enough space here to call your horse!",
+    "callablehorses.error.cannotride": "Could not ride your personal horse.",
+
+    "callablehorses.success": "This is now your personal horse!",
+
+    "callablehorses.alert.death": "Your personal horse just died!",
+    "callablehorses.alert.offlinedeath": "Your personal horse died while you were offline!",
+
+    "callablehorses.stats.title": "Horse Stat Viewer",
+    "callablehorses.stats.health": "Health:",
+    "callablehorses.stats.speed": "Speed:",
+    "callablehorses.stats.jump": "Jump Height:",
+    "callablehorses.stats.last_pos": "Last known position:",
+    "callablehorses.stats.last_dim": "Last known dimension:",
+    "callablehorses.stats.unknown": "Unknown",
+    "callablehorses.stats.pos": "xyz = %s %s %s",
+    "callablehorses.stats.na": "N/A"
+}

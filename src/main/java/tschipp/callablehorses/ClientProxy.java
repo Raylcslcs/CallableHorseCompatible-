@@ -1,0 +1,71 @@
+package tschipp.callablehorses;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.Level;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import tschipp.callablehorses.client.gui.GuiStatViewer;
+import tschipp.callablehorses.client.keybinds.KeybindManager;
+
+@EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+public class ClientProxy implements IProxy
+{
+	@SubscribeEvent
+	public static void setupKeyMappings(RegisterKeyMappingsEvent event)
+	{
+		KeybindManager.registerKeyBinding(event);
+	}
+
+	@Override
+	public Level getWorld()
+	{
+		return Minecraft.getInstance().level;
+	}
+
+	@Override
+	public Player getPlayer()
+	{
+		return Minecraft.getInstance().player;
+	}
+
+	@Override
+	public void displayStatViewer()
+	{
+		Player player = Minecraft.getInstance().player;
+		if (player == null)
+			return;
+
+		try
+		{
+			Minecraft.getInstance().setScreen(new GuiStatViewer(player));
+		}
+		catch (Throwable t)
+		{
+			CallableHorses.LOGGER.error("Failed to open horse stats viewer screen", t);
+		}
+	}
+
+	@Override
+	public void displayStatViewer(CompoundTag ownerNbt)
+	{
+		Player player = Minecraft.getInstance().player;
+		if (player == null)
+			return;
+
+		try
+		{
+			Minecraft.getInstance().setScreen(new GuiStatViewer(player, ownerNbt));
+		}
+		catch (Throwable t)
+		{
+			CallableHorses.LOGGER.error("Failed to open horse stats viewer screen", t);
+		}
+	}
+
+}
